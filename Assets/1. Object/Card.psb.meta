@@ -50,7 +50,7 @@ ScriptedImporter:
     flipbookColumns: 0
     ignorePngGamma: 0
     cookieMode: 0
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -92,20 +92,40 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
-  mosaicSpriteImportData: []
-  rigSpriteImportData:
-  - name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC"
+  mosaicSpriteImportData:
+  - name: Cost
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 3775
+      x: 234
+      y: 3967
+      width: 30
+      height: 30
+    spriteID: a9c4f16c67d6f8a48b3ff3a805ca8463
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 3967}
+    spritePosition: {x: 1162, y: 359}
+  - name: EndTurn1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 970
+      y: 3562
       width: 235
       height: 131
-    spriteID: fddd33e1fa571b74d9217c6718043200
+    spriteID: ca43cec527f1da44baf6002bbde1e00d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -113,9 +133,93 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3775}
-    spritePosition: {x: 1641, y: 58}
-  - name: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC 2"
+    uvTransform: {x: 970, y: 3562}
+    spritePosition: {x: 1613, y: 20}
+  - name: Card_Info
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3967
+      width: 222
+      height: 55
+    spriteID: 0f3d90fd3128fa74385ae24409fc43c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3967}
+    spritePosition: {x: 587, y: 181}
+  - name: Card_Cost
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4030
+      width: 222
+      height: 55
+    spriteID: 0f2e2cea867a7c04a8cf4926f632151d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4030}
+    spritePosition: {x: 587, y: 434}
+  - name: Card_Illust
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 3562
+      width: 222
+      height: 174
+    spriteID: 4c36a145856e606429ac0c4168adf209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 3562}
+    spritePosition: {x: 587, y: 248}
+  - name: Card_Body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3562
+      width: 272
+      height: 397
+    spriteID: e8a3047148b14ba4c8980646bd0b7d27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3562}
+    spritePosition: {x: 559, y: 114}
+  - name: Boss_Behavior
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -124,9 +228,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 3267
-      width: 340
-      height: 500
-    spriteID: 15001f1c7ae2a8f47a240f2443f4cb4d
+      width: 448
+      height: 287
+    spriteID: 7e567d2a304bb604dbbe12d3e26c8928
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -134,20 +238,41 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3, y: 3266}
-    spritePosition: {x: 790, y: 93}
-  - name: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC"
+    uvTransform: {x: 4, y: 3267}
+    spritePosition: {x: 1400, y: 593}
+  - name: Player_HP
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 352
+      x: 514
+      y: 3562
+      width: 448
+      height: 73
+    spriteID: e6686be9c7f91a14da8a1e8fad995e76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 514, y: 3562}
+    spritePosition: {x: 736, y: 20}
+  - name: EndTurn
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
       y: 3267
-      width: 340
-      height: 500
-    spriteID: 0df99d8266edfe245a16e6c73767a85a
+      width: 448
+      height: 287
+    spriteID: 04ebb054416465747885d313982760bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -155,20 +280,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 351, y: 3266}
-    spritePosition: {x: 1150, y: 93}
-  - name: "\uC0AC\uAC01\uD615 2"
+    uvTransform: {x: 460, y: 3267}
+    spritePosition: {x: 1400, y: 20}
+  - name: Player_Cost
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 700
+      x: 916
       y: 3267
-      width: 340
-      height: 500
-    spriteID: 67c0d125def4e734dbcab13ea95e4366
+      width: 448
+      height: 287
+    spriteID: 1e3779d555496f74c9a673346373f4f0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -176,20 +301,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 699, y: 3266}
-    spritePosition: {x: 430, y: 93}
-  - name: "\uC0AC\uAC01\uD615 1 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
+    uvTransform: {x: 916, y: 3267}
+    spritePosition: {x: 72, y: 20}
+  - name: Boss_HP
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1920
-      height: 1080
-    spriteID: ee9aa4985d35ac54dbbbcc4797eac249
+      x: 1372
+      y: 3267
+      width: 448
+      height: 287
+    spriteID: 49738dc9ce9a12347a085fcffa437458
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,9 +322,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 0, y: 0}
-  - name: "\uC0AC\uAC01\uD615 1"
+    uvTransform: {x: 1372, y: 3267}
+    spritePosition: {x: 72, y: 593}
+  - name: BG1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -210,7 +335,7 @@ ScriptedImporter:
       y: 2180
       width: 1919
       height: 1079
-    spriteID: f09fe69458160ae4c8f341307ba8a48b
+    spriteID: b0ebd1d24d1cea743911408015728996
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,7 +345,49 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 2180}
     spritePosition: {x: 0, y: 1}
-  - name: "\uBC30\uACBD"
+  - name: BG2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1919
+      height: 1079
+    spriteID: 2a99ea7a86273e04685563af11bcb9c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 0, y: 1}
+  - name: BG3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 9fccfac4d6272ff42b21874eac513adf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: BG4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -231,7 +398,7 @@ ScriptedImporter:
       y: 1092
       width: 1920
       height: 1080
-    spriteID: cd369ac236e796f4dabcf231b038e83c
+    spriteID: 1068b24bec3d9a545ad403cb276dd493
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,6 +407,280 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3913
+      width: 235
+      height: 131
+    spriteID: 17eff7a59ba5cea42a5d423fc7d6c09f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3913}
+    spritePosition: {x: 1641, y: 58}
+  - name: Card_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 2178
+      width: 272
+      height: 397
+    spriteID: 03a599123dcd55c4aae239a8282ea734
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 2178}
+    spritePosition: {x: 559, y: 114}
+  - name: Boss_Behavior
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3537
+      width: 448
+      height: 287
+    spriteID: f547617e958687347bfcd31b81a33c04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3537}
+    spritePosition: {x: 1400, y: 593}
+  - name: Player_HP
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3832
+      width: 448
+      height: 73
+    spriteID: ad3d74d1de9c9944e9ed1216719b319c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3832}
+    spritePosition: {x: 736, y: 20}
+  - name: EndTurn
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 3537
+      width: 448
+      height: 287
+    spriteID: 6fa242a4d7e306643b50c279840710c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 3537}
+    spritePosition: {x: 1400, y: 20}
+  - name: Player_Cost
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 916
+      y: 3537
+      width: 448
+      height: 287
+    spriteID: 2d4c9b5c35fbb4c46a270ed03d24137a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 916, y: 3537}
+    spritePosition: {x: 72, y: 20}
+  - name: Boss_HP
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1372
+      y: 3537
+      width: 448
+      height: 287
+    spriteID: 3638c084d18d5e5448b861dccfffc348
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1372, y: 3537}
+    spritePosition: {x: 72, y: 593}
+  - name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 35001cd75235d9140a6fc85a9629f56f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: "\uB808\uC774\uC5B4 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3268
+      width: 590
+      height: 261
+    spriteID: ba5a1aa75366e6148880ca8ec50673d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3268}
+    spritePosition: {x: 675, y: 636}
+  - name: BG1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1919
+      height: 1079
+    spriteID: 4c77fd5fc8da08d419d94afcf701dc7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 0, y: 1}
+  - name: BG2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 1091
+      width: 1919
+      height: 1079
+    spriteID: ee097a0a09b374e489aec2bcb384c4fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 1091}
+    spritePosition: {x: 0, y: 1}
+  - name: BG3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: 68f0a205666090345bfb1bebb6410d90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
+  - name: BG4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 1920
+      height: 1080
+    spriteID: 80ce1ab912cee994a902987417cc2c18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2180}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
@@ -256,9 +697,45 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
-  characterMode: 1
+  characterMode: 0
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
@@ -273,82 +750,312 @@ ScriptedImporter:
     categories: []
   spritePackingTag: 
   resliceFromLayer: 0
-  mosaicPSDLayers: []
+  mosaicPSDLayers:
+  - name: Cost
+    spriteName: Cost
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9c4f16c67d6f8a48b3ff3a805ca8463
+    layerID: 97
+    mosaicPosition: {x: 234, y: 3967}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EndTurn1
+    spriteName: EndTurn1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ca43cec527f1da44baf6002bbde1e00d
+    layerID: 28
+    mosaicPosition: {x: 970, y: 3562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Card_0 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e981c8df253939043acb62746537d79a
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Info
+    spriteName: Card_Info
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 0f3d90fd3128fa74385ae24409fc43c2
+    layerID: 93
+    mosaicPosition: {x: 4, y: 3967}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Card_Cost
+    spriteName: Card_Cost
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 0f2e2cea867a7c04a8cf4926f632151d
+    layerID: 92
+    mosaicPosition: {x: 4, y: 4030}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Card_Illust
+    spriteName: Card_Illust
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 4c36a145856e606429ac0c4168adf209
+    layerID: 91
+    mosaicPosition: {x: 284, y: 3562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Card_Body
+    spriteName: Card_Body
+    isGroup: 0
+    parentIndex: 2
+    spriteID: e8a3047148b14ba4c8980646bd0b7d27
+    layerID: 96
+    mosaicPosition: {x: 4, y: 3562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boss_Behavior
+    spriteName: Boss_Behavior
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e567d2a304bb604dbbe12d3e26c8928
+    layerID: 78
+    mosaicPosition: {x: 4, y: 3267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Player_HP
+    spriteName: Player_HP
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e6686be9c7f91a14da8a1e8fad995e76
+    layerID: 81
+    mosaicPosition: {x: 514, y: 3562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EndTurn
+    spriteName: EndTurn
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04ebb054416465747885d313982760bd
+    layerID: 80
+    mosaicPosition: {x: 460, y: 3267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Player_Cost
+    spriteName: Player_Cost
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e3779d555496f74c9a673346373f4f0
+    layerID: 79
+    mosaicPosition: {x: 916, y: 3267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boss_HP
+    spriteName: Boss_HP
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49738dc9ce9a12347a085fcffa437458
+    layerID: 75
+    mosaicPosition: {x: 1372, y: 3267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layout
+    spriteName: Layout
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0ab7ee9e497403d43bbd69d1a79a6fb2
+    layerID: 44
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: BG1
+    spriteName: BG1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b0ebd1d24d1cea743911408015728996
+    layerID: 61
+    mosaicPosition: {x: 4, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG2
+    spriteName: BG2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2a99ea7a86273e04685563af11bcb9c8
+    layerID: 6
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG3
+    spriteName: BG3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9fccfac4d6272ff42b21874eac513adf
+    layerID: 62
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG4
+    spriteName: BG4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1068b24bec3d9a545ad403cb276dd493
+    layerID: 68
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC"
     spriteName: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC"
     isGroup: 0
     parentIndex: -1
-    spriteID: fddd33e1fa571b74d9217c6718043200
+    spriteID: 17eff7a59ba5cea42a5d423fc7d6c09f
     layerID: 28
-    mosaicPosition: {x: 4, y: 3775}
+    mosaicPosition: {x: 4, y: 3913}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC 2"
-    spriteName: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC 2"
+  - name: Card_0
+    spriteName: Card_0
     isGroup: 0
     parentIndex: -1
-    spriteID: 15001f1c7ae2a8f47a240f2443f4cb4d
-    layerID: 24
-    mosaicPosition: {x: 4, y: 3267}
+    spriteID: 03a599123dcd55c4aae239a8282ea734
+    layerID: 74
+    mosaicPosition: {x: 1932, y: 2178}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC"
-    spriteName: "\uC0AC\uAC01\uD615 2 \uBCF5\uC0AC"
+  - name: Boss_Behavior
+    spriteName: Boss_Behavior
     isGroup: 0
     parentIndex: -1
-    spriteID: 0df99d8266edfe245a16e6c73767a85a
-    layerID: 23
-    mosaicPosition: {x: 352, y: 3267}
+    spriteID: f547617e958687347bfcd31b81a33c04
+    layerID: 78
+    mosaicPosition: {x: 4, y: 3537}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uC0AC\uAC01\uD615 2"
-    spriteName: "\uC0AC\uAC01\uD615 2"
+  - name: Player_HP
+    spriteName: Player_HP
     isGroup: 0
     parentIndex: -1
-    spriteID: 67c0d125def4e734dbcab13ea95e4366
-    layerID: 18
-    mosaicPosition: {x: 700, y: 3267}
+    spriteID: ad3d74d1de9c9944e9ed1216719b319c
+    layerID: 81
+    mosaicPosition: {x: 4, y: 3832}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uC0AC\uAC01\uD615 1 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
-    spriteName: "\uC0AC\uAC01\uD615 1 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
+  - name: EndTurn
+    spriteName: EndTurn
     isGroup: 0
     parentIndex: -1
-    spriteID: ee9aa4985d35ac54dbbbcc4797eac249
-    layerID: 17
+    spriteID: 6fa242a4d7e306643b50c279840710c4
+    layerID: 80
+    mosaicPosition: {x: 460, y: 3537}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Player_Cost
+    spriteName: Player_Cost
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2d4c9b5c35fbb4c46a270ed03d24137a
+    layerID: 79
+    mosaicPosition: {x: 916, y: 3537}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boss_HP
+    spriteName: Boss_HP
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3638c084d18d5e5448b861dccfffc348
+    layerID: 75
+    mosaicPosition: {x: 1372, y: 3537}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC 2"
+    spriteName: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC 2"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 35001cd75235d9140a6fc85a9629f56f
+    layerID: 44
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uC0AC\uAC01\uD615 1"
-    spriteName: "\uC0AC\uAC01\uD615 1"
+  - name: "\uB808\uC774\uC5B4 2"
+    spriteName: "\uB808\uC774\uC5B4 2"
     isGroup: 0
     parentIndex: -1
-    spriteID: f09fe69458160ae4c8f341307ba8a48b
-    layerID: 6
-    mosaicPosition: {x: 4, y: 2180}
+    spriteID: ba5a1aa75366e6148880ca8ec50673d6
+    layerID: 51
+    mosaicPosition: {x: 4, y: 3268}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: "\uBC30\uACBD"
-    spriteName: "\uBC30\uACBD"
+  - name: BG1
+    spriteName: BG1
     isGroup: 0
     parentIndex: -1
-    spriteID: cd369ac236e796f4dabcf231b038e83c
-    layerID: 1
+    spriteID: 4c77fd5fc8da08d419d94afcf701dc7e
+    layerID: 61
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG2
+    spriteName: BG2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ee097a0a09b374e489aec2bcb384c4fa
+    layerID: 6
+    mosaicPosition: {x: 1932, y: 1091}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG3
+    spriteName: BG3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 68f0a205666090345bfb1bebb6410d90
+    layerID: 62
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG4
+    spriteName: BG4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80ce1ab912cee994a902987417cc2c18
+    layerID: 68
+    mosaicPosition: {x: 4, y: 2180}
     flatten: 0
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638641595733271301
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
