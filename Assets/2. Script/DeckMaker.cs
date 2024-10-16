@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class DeckMaker : MonoBehaviour
 {
-    [SerializeField]List<ImsiCard> deck; //전체 보유 카드
-    [SerializeField]List<ImsiCard> cards; //사용될 카드
+    List<ImsiCard> deck; //전체 보유 카드
+    List<ImsiCard> cards; //사용될 카드
 
     private void Awake()
     {
+        deck = new List<ImsiCard>();
+        cards = new List<ImsiCard>();
         deck.Add((Resources.Load<ImsiCard>("Heal")));
         deck.Add((Resources.Load<ImsiCard>("Heal")));
         deck.Add((Resources.Load<ImsiCard>("Deal")));
@@ -37,7 +39,11 @@ public class DeckMaker : MonoBehaviour
         }
         return null;
     }
-
+    public void ReturnCard(string card)
+    {
+        Debug.Log(card);
+        cards.Add((Resources.Load<ImsiCard>(card)));
+    }
     public void GameStart()
     {
         cards.Clear();
