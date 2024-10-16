@@ -178,7 +178,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: Boss_Horsie_4
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -199,7 +199,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: Boss_Horsie_5
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -220,7 +220,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: Boss_Horsie_6
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -230,6 +230,69 @@ ScriptedImporter:
       width: 1020
       height: 1020
     spriteID: f55748b6346f0fe4189fcf46beb3bbfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  - name: Boss_Horsie_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 1028
+      width: 1020
+      height: 1020
+    spriteID: ba4833ffac5d3b4488f7afb18185a091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  - name: Boss_Horsie_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 1028
+      width: 1020
+      height: 1020
+    spriteID: 682e33c1388d69e4aa05fa134c99285f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  - name: Boss_Horsie_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2048
+      y: 1028
+      width: 1020
+      height: 1020
+    spriteID: ffb0419358d629248991cfd277c79ba4
     spriteBone: []
     spriteOutline: []
     vertices: []
