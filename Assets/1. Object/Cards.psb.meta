@@ -50,7 +50,7 @@ ScriptedImporter:
     flipbookColumns: 0
     ignorePngGamma: 0
     cookieMode: 0
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -71,17 +71,17 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   spriteImportData:
-  - name: 
+  - name: Cards_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 0
-      height: 0
+      width: 1024
+      height: 1024
     spriteID: 
     spriteBone: []
     spriteOutline: []
@@ -92,8 +92,155 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
-  mosaicSpriteImportData: []
+  mosaicSpriteImportData:
+  - name: Deal_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 272
+      height: 397
+    spriteID: 79ece7714d79331469c25f054a52ca1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 113}
+  - name: Dice_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 4
+      width: 272
+      height: 397
+    spriteID: b68db1a4eeb6c904f83655f32d618074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 4}
+    spritePosition: {x: 343, y: 113}
+  - name: Deal_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 4
+      width: 272
+      height: 397
+    spriteID: 57422633b4ee9ba46b856c3140638037
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 4}
+    spritePosition: {x: 686, y: 113}
+  - name: Heal_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 409
+      width: 272
+      height: 397
+    spriteID: 42bd476678e595e499ef85da675b8e7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 409}
+    spritePosition: {x: 0, y: 627}
+  - name: Deal_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 409
+      width: 272
+      height: 397
+    spriteID: bd5378d71229efe4e816bfd4b757b130
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 409}
+    spritePosition: {x: 343, y: 627}
+  - name: Dice_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 564
+      y: 409
+      width: 272
+      height: 397
+    spriteID: 3fdbfcba523596c4cabed156b020a517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 564, y: 409}
+    spritePosition: {x: 686, y: 627}
   rigSpriteImportData:
+  - name: "\uB808\uC774\uC5B4 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1684
+      y: 4
+      width: 121
+      height: 103
+    spriteID: 29beda20420160b48a69588750db1d66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1684, y: 4}
+    spritePosition: {x: 767, y: 295}
   - name: "\uB808\uC774\uC5B4 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -101,8 +248,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1844
-      y: 1220
+      x: 1684
+      y: 115
       width: 110
       height: 106
     spriteID: f5ff23fc970f67a43b579900401c1b30
@@ -113,7 +260,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1844, y: 1220}
+    uvTransform: {x: 1684, y: 115}
     spritePosition: {x: 420, y: 289}
   - name: "\uB808\uC774\uC5B4 2"
     originalName: 
@@ -122,8 +269,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1596
-      y: 814
+      x: 4
+      y: 530
       width: 418
       height: 134
     spriteID: 7acde5b6cb9ad09489ba8c318bdf8df5
@@ -134,7 +281,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1596, y: 814}
+    uvTransform: {x: 4, y: 530}
     spritePosition: {x: 78, y: 277}
   - name: "\uB808\uC774\uC5B4 1"
     originalName: 
@@ -144,7 +291,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1036
+      y: 409
       width: 798
       height: 113
     spriteID: a94a70b881a67334c99cabc3202ef339
@@ -155,71 +302,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1036}
+    uvTransform: {x: 4, y: 409}
     spritePosition: {x: 79, y: 791}
-  - name: "Card_Info \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1596
-      y: 956
-      width: 222
-      height: 55
-    spriteID: 45dd2449b706da1438e6f51aa8567e9b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1596, y: 956}
-    spritePosition: {x: 714, y: 180}
-  - name: "Card_Cost \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 924
-      y: 1157
-      width: 222
-      height: 55
-    spriteID: 76e04576390c79d45a626ef15f2922f9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 924, y: 1157}
-    spritePosition: {x: 714, y: 433}
-  - name: "Card_Illust \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1036
-      y: 814
-      width: 222
-      height: 174
-    spriteID: c23d54f47bd4230419e3061527f6f301
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1036, y: 814}
-    spritePosition: {x: 714, y: 247}
   - name: "Card_Body \uBCF5\uC0AC 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -227,7 +311,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1036
+      x: 4
       y: 4
       width: 272
       height: 397
@@ -239,71 +323,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1036, y: 4}
+    uvTransform: {x: 4, y: 4}
     spritePosition: {x: 686, y: 113}
-  - name: "Card_Info \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1154
-      y: 1157
-      width: 222
-      height: 55
-    spriteID: 41af3313e56d1084999c7042443205c5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1154, y: 1157}
-    spritePosition: {x: 371, y: 180}
-  - name: "Card_Cost \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1384
-      y: 1157
-      width: 222
-      height: 55
-    spriteID: 61096bd2fdb26a143a7b8ce3a7c55cc7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1384, y: 1157}
-    spritePosition: {x: 371, y: 433}
-  - name: "Card_Illust \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1316
-      y: 814
-      width: 222
-      height: 174
-    spriteID: 54735980d4577e44e87fec084817a32e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1316, y: 814}
-    spritePosition: {x: 371, y: 247}
   - name: "Card_Body \uBCF5\uC0AC 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -311,8 +332,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1036
-      y: 409
+      x: 284
+      y: 4
       width: 272
       height: 397
     spriteID: f5c77641c9a81cc4daca8469d0fe3cdf
@@ -323,71 +344,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1036, y: 409}
+    uvTransform: {x: 284, y: 4}
     spritePosition: {x: 343, y: 113}
-  - name: "Card_Info \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1614
-      y: 1157
-      width: 222
-      height: 55
-    spriteID: 2bd3ca197cfea7a40ba8cb0ddb30800c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1614, y: 1157}
-    spritePosition: {x: 28, y: 180}
-  - name: "Card_Cost \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 924
-      y: 1220
-      width: 222
-      height: 55
-    spriteID: af634246098173e4097ec8ada6c4989a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 924, y: 1220}
-    spritePosition: {x: 28, y: 433}
-  - name: "Card_Illust \uBCF5\uC0AC 3"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1157
-      width: 222
-      height: 174
-    spriteID: c4ca9d6d6e7641e48b0191385ca1f694
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 1157}
-    spritePosition: {x: 28, y: 247}
   - name: "Card_Body \uBCF5\uC0AC 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -395,7 +353,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1316
+      x: 564
       y: 4
       width: 272
       height: 397
@@ -407,71 +365,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1316, y: 4}
+    uvTransform: {x: 564, y: 4}
     spritePosition: {x: 0, y: 113}
-  - name: "Card_Info \uBCF5\uC0AC 2"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1154
-      y: 1220
-      width: 222
-      height: 55
-    spriteID: 4e25ba74804181546b65fe9bd3cd3d84
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1154, y: 1220}
-    spritePosition: {x: 714, y: 694}
-  - name: "Card_Cost \uBCF5\uC0AC 2"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1384
-      y: 1220
-      width: 222
-      height: 55
-    spriteID: 6cec971fb39db3042a693b016212f9cc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1384, y: 1220}
-    spritePosition: {x: 714, y: 947}
-  - name: "Card_Illust \uBCF5\uC0AC 2"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 234
-      y: 1157
-      width: 222
-      height: 174
-    spriteID: a62025a9fb1a87e4d83390f2952cfe5e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 234, y: 1157}
-    spritePosition: {x: 714, y: 761}
   - name: "Card_Body \uBCF5\uC0AC 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -479,8 +374,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1316
-      y: 409
+      x: 844
+      y: 4
       width: 272
       height: 397
     spriteID: 1152115842d8c0d41a66106d177f58e0
@@ -491,71 +386,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1316, y: 409}
+    uvTransform: {x: 844, y: 4}
     spritePosition: {x: 686, y: 627}
-  - name: "Card_Info \uBCF5\uC0AC"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1614
-      y: 1220
-      width: 222
-      height: 55
-    spriteID: baf767f660a54a14f9ef2e0f46cca262
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1614, y: 1220}
-    spritePosition: {x: 371, y: 694}
-  - name: "Card_Cost \uBCF5\uC0AC"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 810
-      y: 1036
-      width: 222
-      height: 55
-    spriteID: 634d78b6b7c16b042b2e871d78b090ce
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 810, y: 1036}
-    spritePosition: {x: 371, y: 947}
-  - name: "Card_Illust \uBCF5\uC0AC"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 464
-      y: 1157
-      width: 222
-      height: 174
-    spriteID: ca20d3383d654da4c958a1ef17878616
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 464, y: 1157}
-    spritePosition: {x: 372, y: 761}
   - name: "Card_Body \uBCF5\uC0AC"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -563,7 +395,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1596
+      x: 1124
       y: 4
       width: 272
       height: 397
@@ -575,71 +407,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1596, y: 4}
+    uvTransform: {x: 1124, y: 4}
     spritePosition: {x: 343, y: 627}
-  - name: Card_Info
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1040
-      y: 1036
-      width: 222
-      height: 55
-    spriteID: 4d6024266c7443c47a225754a5241e37
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1040, y: 1036}
-    spritePosition: {x: 28, y: 694}
-  - name: Card_Cost
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1270
-      y: 1036
-      width: 222
-      height: 55
-    spriteID: 5cc651df0a01e694ab6caaa3cb8e01ad
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1270, y: 1036}
-    spritePosition: {x: 28, y: 947}
-  - name: Card_Illust
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 694
-      y: 1157
-      width: 222
-      height: 174
-    spriteID: f5564d24adbdd48489df96d045c8e9d4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 694, y: 1157}
-    spritePosition: {x: 28, y: 761}
   - name: Card_Body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -647,8 +416,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1596
-      y: 409
+      x: 1404
+      y: 4
       width: 272
       height: 397
     spriteID: 429a76160f87ae846b0db2f1db9a8d3c
@@ -659,29 +428,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1596, y: 409}
+    uvTransform: {x: 1404, y: 4}
     spritePosition: {x: 0, y: 627}
-  - name: "\uBC30\uACBD"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1024
-      height: 1024
-    spriteID: 8626caec6fe36a1449808764e093fa8a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
@@ -697,9 +445,45 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
-  characterMode: 1
+  characterMode: 0
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
@@ -714,7 +498,277 @@ ScriptedImporter:
     categories: []
   spritePackingTag: 
   resliceFromLayer: 0
-  mosaicPSDLayers: []
+  mosaicPSDLayers:
+  - name: "Card_0 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6eb1bc99e0442a040a15e380367bd534
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Deal_1
+    spriteName: Deal_1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 79ece7714d79331469c25f054a52ca1b
+    layerID: 62
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Dice_1
+    spriteName: Dice_1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b68db1a4eeb6c904f83655f32d618074
+    layerID: 64
+    mosaicPosition: {x: 284, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Deal_2
+    spriteName: Deal_2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 57422633b4ee9ba46b856c3140638037
+    layerID: 63
+    mosaicPosition: {x: 564, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Heal_0
+    spriteName: Heal_0
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 42bd476678e595e499ef85da675b8e7b
+    layerID: 59
+    mosaicPosition: {x: 4, y: 409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Deal_0
+    spriteName: Deal_0
+    isGroup: 0
+    parentIndex: 0
+    spriteID: bd5378d71229efe4e816bfd4b757b130
+    layerID: 60
+    mosaicPosition: {x: 284, y: 409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Dice_0
+    spriteName: Dice_0
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3fdbfcba523596c4cabed156b020a517
+    layerID: 61
+    mosaicPosition: {x: 564, y: 409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "\uADF8\uB8F9 1"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 6a9bd5cb998355d45b6039f92804f1c8
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "Card_Info \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 5dfae859660aa044d8b28840c7ff1d80
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 85348fd96d8980841ba61db890abbca0
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 83a2d15b9d401f24dba9a24c5acb21d4
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 10c4471701f022f49b100cce8c49ffc7
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 482b546cfbbc2dc418869006a6a9bf40
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: a65a32002282972449651de328710fb2
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: a965a8b17ee2cf5479aefb6f8d80d15e
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 17e7857c76ba47b4ba681ab8987a4574
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 3"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 3dda631e1f53e634fb9a0088a47fd071
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 2"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 5307985ff8e808447bb601c2902d949c
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 2"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: ad94ed0a6cbbcb64989fe8d819267b6f
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 2"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 36d0932545baf38469d1e587079e6612
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: de14a158f4298274f9e337cfa3d11a1b
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: f20f7312b4f0cc947b321cd28f6d084d
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: fe59ed24fb1a4c046ad0755e4e1717fd
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Info
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 169aa24a5da2f054faa0def6f6a98f19
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Cost
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 6b8b9cedb31c7af4f926b3965752386c
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Illust
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: f11d9f0a759571e4d86089927d41ac69
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "\uBC30\uACBD"
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aef4aa617445ca74b92dd4dc3898ccf8
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   rigPSDLayers:
   - name: "Card_0 - \uACE0\uAE09 \uAC1C\uCCB4 \uADF8\uB8F9"
     spriteName: 
@@ -726,13 +780,33 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: "\uB808\uC774\uC5B4 5 \uBCF5\uC0AC"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 45beb74eb6d6654428ca4c078e7c95a3
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "\uB808\uC774\uC5B4 5"
+    spriteName: "\uB808\uC774\uC5B4 5"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 29beda20420160b48a69588750db1d66
+    layerID: 54
+    mosaicPosition: {x: 1684, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: "\uB808\uC774\uC5B4 4"
     spriteName: "\uB808\uC774\uC5B4 4"
     isGroup: 0
     parentIndex: 0
     spriteID: f5ff23fc970f67a43b579900401c1b30
     layerID: 43
-    mosaicPosition: {x: 1844, y: 1220}
+    mosaicPosition: {x: 1684, y: 115}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -742,7 +816,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 7acde5b6cb9ad09489ba8c318bdf8df5
     layerID: 40
-    mosaicPosition: {x: 1596, y: 814}
+    mosaicPosition: {x: 4, y: 530}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -752,39 +826,199 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: a94a70b881a67334c99cabc3202ef339
     layerID: 36
-    mosaicPosition: {x: 4, y: 1036}
+    mosaicPosition: {x: 4, y: 409}
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: "\uADF8\uB8F9 1"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 499133e7c0398f6489f685cd646b96fc
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: "Card_Info \uBCF5\uC0AC 3"
     spriteName: "Card_Info \uBCF5\uC0AC 3"
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 6
     spriteID: 45dd2449b706da1438e6f51aa8567e9b
     layerID: 35
     mosaicPosition: {x: 1596, y: 956}
     flatten: 0
-    isImported: 1
+    isImported: 0
     isVisible: 1
   - name: "Card_Cost \uBCF5\uC0AC 3"
     spriteName: "Card_Cost \uBCF5\uC0AC 3"
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 6
     spriteID: 76e04576390c79d45a626ef15f2922f9
     layerID: 34
     mosaicPosition: {x: 924, y: 1157}
     flatten: 0
-    isImported: 1
+    isImported: 0
     isVisible: 1
   - name: "Card_Illust \uBCF5\uC0AC 3"
     spriteName: "Card_Illust \uBCF5\uC0AC 3"
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 6
     spriteID: c23d54f47bd4230419e3061527f6f301
     layerID: 33
     mosaicPosition: {x: 1036, y: 814}
     flatten: 0
-    isImported: 1
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 3"
+    spriteName: "Card_Info \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 41af3313e56d1084999c7042443205c5
+    layerID: 31
+    mosaicPosition: {x: 1154, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 3"
+    spriteName: "Card_Cost \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 61096bd2fdb26a143a7b8ce3a7c55cc7
+    layerID: 30
+    mosaicPosition: {x: 1384, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 3"
+    spriteName: "Card_Illust \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 54735980d4577e44e87fec084817a32e
+    layerID: 29
+    mosaicPosition: {x: 1316, y: 814}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 3"
+    spriteName: "Card_Info \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 2bd3ca197cfea7a40ba8cb0ddb30800c
+    layerID: 27
+    mosaicPosition: {x: 1614, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 3"
+    spriteName: "Card_Cost \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: af634246098173e4097ec8ada6c4989a
+    layerID: 26
+    mosaicPosition: {x: 924, y: 1220}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 3"
+    spriteName: "Card_Illust \uBCF5\uC0AC 3"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: c4ca9d6d6e7641e48b0191385ca1f694
+    layerID: 25
+    mosaicPosition: {x: 4, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC 2"
+    spriteName: "Card_Info \uBCF5\uC0AC 2"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 4e25ba74804181546b65fe9bd3cd3d84
+    layerID: 15
+    mosaicPosition: {x: 1154, y: 1220}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC 2"
+    spriteName: "Card_Cost \uBCF5\uC0AC 2"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 6cec971fb39db3042a693b016212f9cc
+    layerID: 14
+    mosaicPosition: {x: 1384, y: 1220}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC 2"
+    spriteName: "Card_Illust \uBCF5\uC0AC 2"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: a62025a9fb1a87e4d83390f2952cfe5e
+    layerID: 13
+    mosaicPosition: {x: 234, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Info \uBCF5\uC0AC"
+    spriteName: "Card_Info \uBCF5\uC0AC"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: baf767f660a54a14f9ef2e0f46cca262
+    layerID: 11
+    mosaicPosition: {x: 1614, y: 1220}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Cost \uBCF5\uC0AC"
+    spriteName: "Card_Cost \uBCF5\uC0AC"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 634d78b6b7c16b042b2e871d78b090ce
+    layerID: 10
+    mosaicPosition: {x: 810, y: 1036}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Card_Illust \uBCF5\uC0AC"
+    spriteName: "Card_Illust \uBCF5\uC0AC"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: ca20d3383d654da4c958a1ef17878616
+    layerID: 9
+    mosaicPosition: {x: 464, y: 1157}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Info
+    spriteName: Card_Info
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 4d6024266c7443c47a225754a5241e37
+    layerID: 6
+    mosaicPosition: {x: 1040, y: 1036}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Cost
+    spriteName: Card_Cost
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 5cc651df0a01e694ab6caaa3cb8e01ad
+    layerID: 5
+    mosaicPosition: {x: 1270, y: 1036}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Card_Illust
+    spriteName: Card_Illust
+    isGroup: 0
+    parentIndex: 6
+    spriteID: f5564d24adbdd48489df96d045c8e9d4
+    layerID: 4
+    mosaicPosition: {x: 694, y: 1157}
+    flatten: 0
+    isImported: 0
     isVisible: 1
   - name: "Card_Body \uBCF5\uC0AC 3"
     spriteName: "Card_Body \uBCF5\uC0AC 3"
@@ -792,37 +1026,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 86d5c150ce2de7f47a6fc26723493a5a
     layerID: 32
-    mosaicPosition: {x: 1036, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Info \uBCF5\uC0AC 3"
-    spriteName: "Card_Info \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 41af3313e56d1084999c7042443205c5
-    layerID: 31
-    mosaicPosition: {x: 1154, y: 1157}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Cost \uBCF5\uC0AC 3"
-    spriteName: "Card_Cost \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 61096bd2fdb26a143a7b8ce3a7c55cc7
-    layerID: 30
-    mosaicPosition: {x: 1384, y: 1157}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Illust \uBCF5\uC0AC 3"
-    spriteName: "Card_Illust \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 54735980d4577e44e87fec084817a32e
-    layerID: 29
-    mosaicPosition: {x: 1316, y: 814}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -832,37 +1036,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: f5c77641c9a81cc4daca8469d0fe3cdf
     layerID: 28
-    mosaicPosition: {x: 1036, y: 409}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Info \uBCF5\uC0AC 3"
-    spriteName: "Card_Info \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 2bd3ca197cfea7a40ba8cb0ddb30800c
-    layerID: 27
-    mosaicPosition: {x: 1614, y: 1157}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Cost \uBCF5\uC0AC 3"
-    spriteName: "Card_Cost \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: af634246098173e4097ec8ada6c4989a
-    layerID: 26
-    mosaicPosition: {x: 924, y: 1220}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Illust \uBCF5\uC0AC 3"
-    spriteName: "Card_Illust \uBCF5\uC0AC 3"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: c4ca9d6d6e7641e48b0191385ca1f694
-    layerID: 25
-    mosaicPosition: {x: 4, y: 1157}
+    mosaicPosition: {x: 284, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -872,37 +1046,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 8014da7b59eda3c43af511e205eac72f
     layerID: 24
-    mosaicPosition: {x: 1316, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Info \uBCF5\uC0AC 2"
-    spriteName: "Card_Info \uBCF5\uC0AC 2"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 4e25ba74804181546b65fe9bd3cd3d84
-    layerID: 15
-    mosaicPosition: {x: 1154, y: 1220}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Cost \uBCF5\uC0AC 2"
-    spriteName: "Card_Cost \uBCF5\uC0AC 2"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 6cec971fb39db3042a693b016212f9cc
-    layerID: 14
-    mosaicPosition: {x: 1384, y: 1220}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Illust \uBCF5\uC0AC 2"
-    spriteName: "Card_Illust \uBCF5\uC0AC 2"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a62025a9fb1a87e4d83390f2952cfe5e
-    layerID: 13
-    mosaicPosition: {x: 234, y: 1157}
+    mosaicPosition: {x: 564, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -912,37 +1056,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 1152115842d8c0d41a66106d177f58e0
     layerID: 12
-    mosaicPosition: {x: 1316, y: 409}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Info \uBCF5\uC0AC"
-    spriteName: "Card_Info \uBCF5\uC0AC"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: baf767f660a54a14f9ef2e0f46cca262
-    layerID: 11
-    mosaicPosition: {x: 1614, y: 1220}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Cost \uBCF5\uC0AC"
-    spriteName: "Card_Cost \uBCF5\uC0AC"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 634d78b6b7c16b042b2e871d78b090ce
-    layerID: 10
-    mosaicPosition: {x: 810, y: 1036}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: "Card_Illust \uBCF5\uC0AC"
-    spriteName: "Card_Illust \uBCF5\uC0AC"
-    isGroup: 0
-    parentIndex: 0
-    spriteID: ca20d3383d654da4c958a1ef17878616
-    layerID: 9
-    mosaicPosition: {x: 464, y: 1157}
+    mosaicPosition: {x: 844, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -952,37 +1066,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: c5d2a9c5644e0ec4d83ff4d833f2de3e
     layerID: 8
-    mosaicPosition: {x: 1596, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Card_Info
-    spriteName: Card_Info
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 4d6024266c7443c47a225754a5241e37
-    layerID: 6
-    mosaicPosition: {x: 1040, y: 1036}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Card_Cost
-    spriteName: Card_Cost
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 5cc651df0a01e694ab6caaa3cb8e01ad
-    layerID: 5
-    mosaicPosition: {x: 1270, y: 1036}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Card_Illust
-    spriteName: Card_Illust
-    isGroup: 0
-    parentIndex: 0
-    spriteID: f5564d24adbdd48489df96d045c8e9d4
-    layerID: 4
-    mosaicPosition: {x: 694, y: 1157}
+    mosaicPosition: {x: 1124, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -992,7 +1076,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 429a76160f87ae846b0db2f1db9a8d3c
     layerID: 3
-    mosaicPosition: {x: 1596, y: 409}
+    mosaicPosition: {x: 1404, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1004,12 +1088,12 @@ ScriptedImporter:
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638647721965654681
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 

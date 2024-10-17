@@ -169,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -28, y: 0}
+  m_AnchoredPosition: {x: -26, y: 0}
   m_SizeDelta: {x: 80, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1630617175205840153
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 80
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e975942757b73404ead97fde5aee06f8, type: 2}
   m_sharedMaterial: {fileID: -1861758597834533156, guid: e975942757b73404ead97fde5aee06f8, type: 2}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 5121737711771896621}
   - component: {fileID: 6525550874693065964}
   m_Layer: 5
-  m_Name: Deal
+  m_Name: Deal 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1084599317662770034, guid: 892ab127447781644bb040495f8f3c72, type: 3}
+  m_Sprite: {fileID: -4151896006648709144, guid: 892ab127447781644bb040495f8f3c72, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e975942757b73404ead97fde5aee06f8, type: 2}
   m_sharedMaterial: {fileID: -1861758597834533156, guid: e975942757b73404ead97fde5aee06f8, type: 2}
