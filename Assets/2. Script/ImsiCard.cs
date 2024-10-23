@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -9,8 +10,9 @@ public class ImsiCard : MonoBehaviour, IDragHandler , IEndDragHandler, IBeginDra
     private Canvas canvas;
     private Vector3 originalPosition;
     public RectTransform dropArea;
+    public Cost cardCost;
 
-    public void Start()
+    public virtual void Start()
     {
         hand = GameObject.FindGameObjectWithTag("DeckMaker").GetComponent<Hand>();
         dropArea = GameObject.FindGameObjectWithTag("Enemy").GetComponent<RectTransform>();
@@ -23,9 +25,7 @@ public class ImsiCard : MonoBehaviour, IDragHandler , IEndDragHandler, IBeginDra
     }
     public virtual void Use()
     {
-        hand.hand_card.Remove(gameObject.GetComponent<ImsiCard>());
-        hand.ReturnCard(gameObject.name.Replace("(Clone)", ""));
-        Destroy(gameObject);
+
     }
     public void OnDrag(PointerEventData eventData)
     {
@@ -47,6 +47,7 @@ public class ImsiCard : MonoBehaviour, IDragHandler , IEndDragHandler, IBeginDra
         RectTransform dropArea = GetValidDropArea();
         if (dropArea != null)
         {
+            rectTransform.position = originalPosition;
             Use();
         }
         else
@@ -68,4 +69,5 @@ public class ImsiCard : MonoBehaviour, IDragHandler , IEndDragHandler, IBeginDra
     {
         
     }
+    
 }

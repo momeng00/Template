@@ -145,8 +145,8 @@ GameObject:
   - component: {fileID: 6662279979894551560}
   - component: {fileID: 3338290510628654717}
   - component: {fileID: 4500930960859011310}
-  - component: {fileID: 5121737711771896621}
   - component: {fileID: 6525550874693065964}
+  - component: {fileID: 7762449522793168256}
   m_Layer: 5
   m_Name: Dice
   m_TagString: Untagged
@@ -213,22 +213,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5121737711771896621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6102990425193290875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 178095bc1bab38e42be626d559671991, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  dropArea: {fileID: 0}
-  boss: {fileID: 0}
-  Dmg: 2
 --- !u!114 &6525550874693065964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +239,23 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7762449522793168256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6102990425193290875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c046d359c54872d4994f20503cbbef17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  dropArea: {fileID: 0}
+  cardCost: {fileID: 2371217453005782434}
+  canDices: []
+  isDirty: 0
 --- !u!1 &8671583879486740500
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,6 +267,7 @@ GameObject:
   - component: {fileID: 4116779997733706200}
   - component: {fileID: 7095352822919391918}
   - component: {fileID: 168124735671747077}
+  - component: {fileID: 2371217453005782434}
   m_Layer: 5
   m_Name: Card_Cost
   m_TagString: Untagged
@@ -389,3 +391,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2371217453005782434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671583879486740500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7774f5d474994ab459aa2e6865ce75ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDice: 0
+  _value: 0
+  textMeshPro: {fileID: 168124735671747077}
+  parent: {fileID: 0}
+  diceValue: 0

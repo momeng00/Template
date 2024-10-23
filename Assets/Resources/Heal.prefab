@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 4197678200297855543}
   - component: {fileID: 1630617175205840153}
   - component: {fileID: 5118750114050586863}
+  - component: {fileID: 8714789288541544868}
   m_Layer: 5
   m_Name: Card_Cost (2)
   m_TagString: Untagged
@@ -269,6 +270,23 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8714789288541544868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629017584159628017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e5fa4526e499142880dc451d6c7c47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDice: 0
+  _value: 0
+  textMeshPro: {fileID: 5118750114050586863}
+  parent: {fileID: 0}
+  diceValue: 0
 --- !u!1 &6102990425193290875
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,8 +298,8 @@ GameObject:
   - component: {fileID: 6662279979894551560}
   - component: {fileID: 3338290510628654717}
   - component: {fileID: 4500930960859011310}
-  - component: {fileID: 5121737711771896621}
   - component: {fileID: 6525550874693065964}
+  - component: {fileID: 8244318712832206609}
   m_Layer: 5
   m_Name: Heal
   m_TagString: Untagged
@@ -348,22 +366,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5121737711771896621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6102990425193290875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 178095bc1bab38e42be626d559671991, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  dropArea: {fileID: 0}
-  boss: {fileID: 0}
-  Dmg: 2
 --- !u!114 &6525550874693065964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +392,23 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &8244318712832206609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6102990425193290875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481bb21a90a647144a8f75a100d0a0cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  dropArea: {fileID: 0}
+  cardCost: {fileID: 7804227987229697163}
+  player: {fileID: 0}
+  healAmount: {fileID: 8714789288541544868}
 --- !u!1 &8671583879486740500
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +420,7 @@ GameObject:
   - component: {fileID: 4116779997733706200}
   - component: {fileID: 7095352822919391918}
   - component: {fileID: 168124735671747077}
+  - component: {fileID: 7804227987229697163}
   m_Layer: 5
   m_Name: Card_Cost
   m_TagString: Untagged
@@ -524,3 +544,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7804227987229697163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671583879486740500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7774f5d474994ab459aa2e6865ce75ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDice: 0
+  _value: 0
+  textMeshPro: {fileID: 168124735671747077}
+  parent: {fileID: 0}
+  diceValue: 0

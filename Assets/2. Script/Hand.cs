@@ -7,8 +7,10 @@ public class Hand : MonoBehaviour
 {
     private const int MAX = 5;
     public LinkedList<ImsiCard> hand_card;
-    [SerializeField]DeckMaker deckMaker;
-    [SerializeField]Button endTrunBTN;
+    private Player player;
+    BossMob boss;
+    DeckMaker deckMaker;
+    public Button endTrunBTN;
     private void Awake()
     {
 
@@ -16,34 +18,36 @@ public class Hand : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        deckMaker = GetComponent<DeckMaker>();
+        player = GetComponent<Player>();
         endTrunBTN.onClick.AddListener(EndTurn);
         hand_card = new LinkedList<ImsiCard>();
+        boss = GameObject.FindGameObjectWithTag("Enemy").GetComponent<BossMob>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            EndTurn();
-        }
+
     }
     public void EndTurn()
     {
+        player.ActPoint = 4;
+        player.HitPlayer(boss.CheckDMG());
         for (int i=0; i<3; i++)
         {
             if (hand_card.Count >= MAX)
                 return;
-            ImsiCard temp = deckMaker.DrawCard();
-            if (temp == null)
+            ImsiCard card = deckMaker.DrawCard();
+            if (card == null)
                 return;
-            ImsiCard card = Instantiate(temp);
+            card.gameObject.SetActive(true);
+            card.transform.SetAsLastSibling();
             hand_card.AddLast(card);
-            card.transform.SetParent(transform);
-        }  
+        }
     }
 
-    public void ReturnCard(string card)
+    public void ReturnCard(ImsiCard card)
     {
         deckMaker.ReturnCard(card);
     }

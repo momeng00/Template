@@ -33,21 +33,28 @@ public class DeckMaker : MonoBehaviour
         ImsiCard card;
         if (cards.Count >= 0)
         {
+            cards[temp].gameObject.SetActive(true);
             card = cards[temp];
             cards.RemoveAt(temp);
             return card;
         }
         return null;
     }
-    public void ReturnCard(string card)
+    public void ReturnCard(ImsiCard card)
     {
-        Debug.Log(card);
-        cards.Add((Resources.Load<ImsiCard>(card)));
+        cards.Add(card);
     }
     public void GameStart()
     {
         cards.Clear();
         cards = new List<ImsiCard>(deck);
+        for(int i=0; i < cards.Count; i++)
+        {
+            ImsiCard temp = Instantiate(cards[i]);
+            cards[i] = temp;
+            temp.transform.SetParent(transform); 
+            temp.gameObject.SetActive(false);
+        }
     }
     public void AddCard(ImsiCard card)
     {

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7643587882184318329}
   - component: {fileID: 3231189176954105032}
   - component: {fileID: 2871179595780178806}
-  - component: {fileID: 4897929056979918301}
+  - component: {fileID: 8835805523990576955}
   m_Layer: 5
   m_Name: Boss_HP_Num
   m_TagString: Untagged
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4897929056979918301
+--- !u!114 &8835805523990576955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,9 +146,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8923629906637872699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4139354ec6b1b3a49b937a872152ddf1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8d505ee4dc05274a919149d109d995a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _isDice: 0
+  _value: 0
   textMeshPro: {fileID: 2871179595780178806}
-  curHP: 0
+  parent: {fileID: 0}
+  diceValue: 0
